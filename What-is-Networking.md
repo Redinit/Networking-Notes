@@ -56,7 +56,9 @@ When you connect your phone, laptop, and TV to your home Wi-Fi, they are all par
 ### A good way to think about it:
 
 👉 At home, all your devices (laptops, phones, smart TVs) connect to your Wi-Fi. This is your Local Area Network (LAN).
+
 👉 When many LANs connect to each other, we get larger networks like Wide Area Networks (WANs).
+
 👉 All these LANs and WANs around the world interconnect to form the Internet – a massive global network of networks.
 
 ## 📌 Example: Connecting Two LANs
