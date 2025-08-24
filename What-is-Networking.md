@@ -31,6 +31,14 @@ A network is a collection of devices connected to each other for the purpose of 
 
 * Use shared resources (like printers or cloud storage)
 
+## 🔸Types of Network
+### LAN (Local Area Network)
+   A network that connects devices within a small geographical area (like home, office, or school). Example: Wi-Fi or Ethernet connecting your laptop, phone, and printer.
+### WAN (Wide Area Network)
+   A network that connects multiple LANs across larger distances, often using routers and service providers. Example: A company’s branch offices connected across cities.
+### Internet
+   The global network of networks that interconnects LANs and WANs worldwide, enabling resource sharing, communication, and services (like websites, email, cloud).
+
 ## 🔸Example
 
 When you connect your phone, laptop, and TV to your home Wi-Fi, they are all part of a LAN (Local Area Network).
