@@ -1,8 +1,12 @@
 # Switching in Networking
 
+
+<img src="./Images/ScreenRecording2025-08-31111855-ezgif.com-video-to-gif-converter.gif" alt="Just Demo Diagram">
+
 ## 📌 What is Switching?
 A **switch** operates at **Layer 2 (Data Link Layer)** of the OSI model.  
 It forwards **frames** between devices based on **MAC addresses**.
+
 
 ---
 📌 **Reminder:**  
