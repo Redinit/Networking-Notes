@@ -69,4 +69,3 @@ A frame contains:
 
 ✅ **Summary:**  
 Switching = **Flood → Learn → Forward**  
-This process makes communication fast and efficient compared to hubs.
