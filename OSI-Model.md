@@ -1,5 +1,7 @@
 # OSI Model (Open Systems Interconnection Model)
 
+![osi-model diagram](./Images/OSI-Model.png)
+
 The **OSI Model** is a reference model that describes how data travels across a network in **7 layers**.  
 Each layer has its own role and interacts with the layers directly above and below it.
 
