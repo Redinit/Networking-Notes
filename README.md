@@ -14,7 +14,7 @@ It’s not perfect or complete yet — it’s a work in progress that grows as I
 - 🔹 Working of Switch
 - 🔹 Working of Router
 - 🔹 OSI & TCP/IP models (basics) 
-- 🔹 IP Addressing & Subnetting (starting soon)
+- 🔹 IP Addressing & Subnetting
 
 ## 🎯 Purpose  
 - To track my own progress 📈  
