@@ -17,7 +17,7 @@ A frame contains:
 - Data (payload)  
 
 👉 Frames are what switches use to forward traffic.  
-(See [OSI Model](../OSI_Model.md) for a full breakdown of layers and data units.)
+(See [OSI Model](./OSI-Model.md) for a full breakdown of layers and data units.)
 
 ---
 
