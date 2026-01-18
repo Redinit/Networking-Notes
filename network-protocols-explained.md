@@ -135,91 +135,95 @@ DNS is frequently abused because it is almost always allowed through firewalls. 
 
 HTTP is the protocol used for web communication. It transfers data in plaintext and does not provide encryption or authentication by default.
 
-Port: TCP 80
+- Port: TCP 80
 
-State: Stateless
+- State: Stateless
 
-Layer: Application
+- Layer: Application
 
-Security relevance:
+**Security relevance:**
 HTTP exposes sensitive data and is a common attack surface for web-based exploits. Any credentials or session tokens transmitted over HTTP can be intercepted.
 
-HTTPS (HTTP Secure)
+### HTTPS (HTTP Secure)
 
 HTTPS is HTTP layered over TLS to provide encryption, integrity, and authentication. It is the standard protocol for modern web traffic.
 
-Port: TCP 443
+- Port: TCP 443
 
-Layer: Application
+- Layer: Application
 
-Security relevance:
+**Security relevance:**
 While HTTPS protects users, it also allows attackers to hide malicious traffic inside encrypted sessions. SOC teams rely on metadata, certificates, and traffic patterns for detection.
 
-FTP (File Transfer Protocol)
+### FTP (File Transfer Protocol)
 
 FTP is a legacy protocol used for file transfer. It separates control and data channels and sends credentials in plaintext.
 
-Ports: TCP 21 (control), TCP 20 (data)
+- Ports: TCP 21 (control), TCP 20 (data)
 
-Layer: Application
+- Layer: Application
 
-Security relevance:
+**Security relevance:**
 FTP is insecure by design and should be avoided. Attackers often target FTP services for credential harvesting and unauthorized data access.
 
-SSH (Secure Shell)
+### SSH (Secure Shell)
 
 SSH provides secure remote access to systems using encryption. It supports both password-based and key-based authentication.
 
-Port: TCP 22
+- Port: TCP 22
 
-Layer: Application
+- Layer: Application
 
-Security relevance:
+**Security relevance:**
 SSH is frequently targeted by brute-force attacks. Compromised SSH access is a common method for persistence and lateral movement.
 
-SMTP (Simple Mail Transfer Protocol)
+### SMTP (Simple Mail Transfer Protocol)
 
 SMTP is responsible for sending emails between servers and from clients to servers.
 
-Ports: TCP 25 (server-to-server), TCP 587 (authenticated submission)
+- Ports: TCP 25 (server-to-server), TCP 587 (authenticated submission)
 
-Layer: Application
+- Layer: Application
 
-Security relevance:
+**Security relevance:**
 SMTP is a primary vector for phishing, spoofing, and malware delivery. Monitoring email flow is critical for SOC teams.
 
-POP3 / IMAP
+### POP3 / IMAP
 
 POP3 and IMAP are used by clients to retrieve emails from mail servers.
 
-POP3: TCP 110
+- POP3: TCP 110
 
-IMAP: TCP 143
+- IMAP: TCP 143
 
-Secure versions: POP3S (995), IMAPS (993)
+- Secure versions: POP3S (995), IMAPS (993)
 
-Security relevance:
+**Security relevance:**
 Unencrypted email retrieval exposes credentials. Secure variants should always be used.
 
-DHCP (Dynamic Host Configuration Protocol)
+### DHCP (Dynamic Host Configuration Protocol)
 
 DHCP automatically assigns IP addresses and network configuration to devices joining a network.
 
-Ports: UDP 67 (server), UDP 68 (client)
+- Ports: UDP 67 (server), UDP 68 (client)
 
-Layer: Application
+- Layer: Application
 
-Security relevance:
+**Security relevance:**
 Attackers can deploy rogue DHCP servers to redirect traffic or perform man-in-the-middle attacks.
 
-7. Secure vs Insecure Protocols
-Insecure	Secure Alternative
-HTTP	HTTPS
-FTP	SFTP
-Telnet	SSH
-POP3	POP3S
-IMAP	IMAPS
-8. Why Protocol Knowledge Matters for Security Roles
+## Secure vs Insecure Protocols
+| Insecure | Secure Alternative |
+| -------- | ------------------ |
+| HTTP     | HTTPS              |
+| FTP      | SFTP               |
+| Telnet   | SSH                |
+| POP3     | POP3S              |
+| IMAP     | IMAPS              |
+
+---
+
+## Why Protocol Knowledge Matters for Security Roles
 
 SOC Analysts analyze protocol behavior to detect anomalies, malicious patterns, and policy violations.
 
