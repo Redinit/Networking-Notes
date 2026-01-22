@@ -15,6 +15,7 @@ It’s not perfect or complete yet — it’s a work in progress that grows as I
 - 🔹 Working of Router
 - 🔹 OSI & TCP/IP models (basics) 
 - 🔹 IP Addressing & Subnetting
+- 🔹 Network Protocols
 
 ## 🎯 Purpose  
 - To track my own progress 📈  
