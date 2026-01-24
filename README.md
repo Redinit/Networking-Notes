@@ -16,6 +16,7 @@ It’s not perfect or complete yet — it’s a work in progress that grows as I
 - 🔹 OSI & TCP/IP models (basics) 
 - 🔹 IP Addressing & Subnetting
 - 🔹 Network Protocols
+- 🔹 TCP
 
 ## 🎯 Purpose  
 - To track my own progress 📈  
