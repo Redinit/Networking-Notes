@@ -147,5 +147,3 @@ It is essential for:
 - Gaming
 - Voice communication
 - Network services like DNS and DHCP
-
----
